@@ -191,7 +191,6 @@ p {
   float: right;
   width: 50%;
   min-height: 100%;
-  /* border: 1px solid red; */
 }
 
 #about-info .info-right img {
@@ -204,7 +203,6 @@ p {
 #about-info .info-left {
   float: left;
   width: 50%;
-  /* border: 1px solid red; */
   min-height: 100%;
 }
 
@@ -218,7 +216,7 @@ p {
 #testimonials h2 {
   color: #fff;
   text-align: center;
-  padding-bottom: 40px;
+  padding: 5px 0 40px 0;
 }
 
 #testimonials .testimonial {
@@ -233,6 +231,33 @@ p {
   float: left;
   margin-right: 20px;
   border-radius: 50%;
+}
+
+/* Contact Form */
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input, 
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus, 
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a
 }
 
 /* Footer */
