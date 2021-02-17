@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flex Basics</title>
+  <title>Flex Align</title>
   <style>
     * {
       box-sizing: border-box;
@@ -17,8 +17,8 @@
     .flex-container {
       background-color: #f4f4f4;
       display: flex;
+      /* row: default */
       flex-direction: row;
-      /* cross axis align */
       align-items: center;
       justify-content: center;
       height: 50vh;
@@ -31,7 +31,7 @@
       padding: 10px;
       text-align: center;
       border-radius: 10px;
-      /* grow shrink basis */
+      /* flex-grow: 1; flex-shrink: 1; flex-basis: 0px */
       /* flex: 1; */
     }
 
@@ -42,7 +42,6 @@
     .item-3 {
       align-self: flex-end;
     }
-
   </style>
 </head>
 <body>
