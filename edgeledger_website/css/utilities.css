@@ -47,13 +47,13 @@
   border: 1px solid #fff;
 }
 
-/* Flex items */
+/* Flex items -> About: Icons */
 .flex-items {
   display: flex;
   text-align: center;
   /* ??? */
-  justify-content: flex-end;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   height: 100%;
 }
 
@@ -61,7 +61,11 @@
   padding: 20px;
 }
 
-/* Flex columns */
+/* Flex columns -> About: Solutions */
+.flex-columns.flex-reverse .row {
+  flex-direction: row-reverse;
+}
+
 .flex-columns .row {
   display: flex;
   /* ??? */
@@ -111,4 +115,38 @@
 
 .flex-columns p {
   margin: 20px 0;
+}
+
+/* Section header -> Cases */
+.section-header {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.section-header h2 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.section-padding {
+  /* trbl: 20px 20px 40px 20px */
+  padding: 20px 20px 40px;
+}
+
+/* Flex grid -> Cases */
+.flex-grid .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.flex-grid .column {
+  /* grow: 1 shrink: 1 basis: 25% */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
 }
