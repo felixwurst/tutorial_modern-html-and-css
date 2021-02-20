@@ -47,12 +47,12 @@
   border: 1px solid #fff;
 }
 
-/* Flex items -> About: Icons */
+/* Flex items -> About: Icons & Team */
 .flex-items {
   display: flex;
   text-align: center;
-  /* justify-content: center; */
-  /* align-items: center; */
+  justify-content: center;
+  align-items: center;
   /* height: 100%; */
 }
 
@@ -71,7 +71,7 @@
   /* display: flex; */
   /* flex-direction: column; */
   width: 50%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* flex-grow: 1; */
   /* flex-shrink: 1; */
   /* flex-basis: 50%; */
@@ -122,8 +122,8 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  /* align-items: center; */
-  /* justify-content: center; */
+  align-items: center;
+  justify-content: center;
 }
 
 .section-header h2 {
