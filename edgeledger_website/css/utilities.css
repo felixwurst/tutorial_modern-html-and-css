@@ -63,19 +63,14 @@
 /* Flex columns -> About: Solutions */
 .flex-columns .row {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   /* width: 100%; */
 }
 
 .flex-columns .column {
-  /* display: flex; */
-  /* flex-direction: column; */
-  width: 50%;
-  /* border: 1px solid red; */
-  /* flex-grow: 1; */
-  /* flex-shrink: 1; */
-  /* flex-basis: 50%; */
-  /* flex: 1; */
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
 }
 
 .flex-columns .column .column-1,
@@ -139,7 +134,7 @@
 /* Flex grid -> Cases Images */
 .flex-grid .row {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   padding: 0 4px;
 }
 
@@ -147,10 +142,6 @@
   display: flex;
   flex-direction: column;
   flex-basis: 25%;
-  /* flex-grow: 1; */
-  /* flex-shrink: 1; */
-  /* flex-basis: 25%; */
-  /* flex: 25%; */
   /* max-width: 25%; */
   padding: 0 4px;
 }
