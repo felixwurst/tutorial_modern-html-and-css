@@ -53,7 +53,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: auto;
   padding: 0 2rem;
   overflow: hidden;
-  /* border: hotpink 1px solid; */
 }
 
 .category {
@@ -95,7 +94,6 @@ h1, h2, h3, h4, h5, h6 {
 .card {
   background-color: #fff;
   padding: 1rem;
-  /* border: 1px solid red; */
 }
 
 .bg-dark {
@@ -172,7 +170,6 @@ h1, h2, h3, h4, h5, h6 {
   grid-template-columns: 6fr 3fr 2fr;
   padding: 1rem;
   align-items: center;
-  /* border: springgreen 1px solid; */
 }
 
 #main-nav .logo {
