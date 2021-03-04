@@ -5,13 +5,22 @@
   overflow: hidden;
 }
 
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
 // Buttons
 %btn-shared {
   display: inline-block;
   padding: 0.8rem 2rem;
-  transition: all 0.5s;
   border: none;
   cursor: pointer;
+  transition: all 0.5s;
 }
 
 .btn {
@@ -38,15 +47,6 @@ button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
   background-color: $main-color;
-}
-
-.lead {
-  font-size: 1.3rem;
-  margin-bottom: 2rem;
-}
-
-.text-center {
-  text-align: center;
 }
 
 // Padding
