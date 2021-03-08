@@ -146,4 +146,85 @@ img {
       }
     }
   }
+
+  // Home Section C
+  &-c {
+    .process {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 1.5rem;
+      text-align: center;
+
+      // process-icon
+      &-icon {
+        position: relative;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        background-color: $dark-color;
+        color: set-text-color($dark-color);
+        border-radius: 50%;
+        padding: 2rem;
+        text-align: center;
+        transition: all 1s;
+
+        &:hover {
+          width: 90px;
+          height: 90px;
+          line-height: 90px;
+          background-color: $main-color;
+
+          .process-step {
+            background-color: $dark-color;
+            color: set-text-color($dark-color);
+          }
+        }
+      }
+
+      // process-step
+      &-step {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 15px;
+        width: 15px;
+        font-size: 28px;
+        line-height: 15px;
+        background-color: $main-color;
+        color: set-text-color($main-color);
+        border-radius: 50%;
+        padding: 1rem;
+        transition: all 1s;
+      }
+    }
+  }
+}
+
+// Footer
+#main-footer {
+  height: 5rem;
+  background-color: $dark-color;
+  color: #fff;
+
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+
+    .social .fab {
+      height: 20px;
+      width: 20px;
+      line-height: 20px;
+      border: #fff 2px solid;
+      border-radius: 50%;
+      margin-right: 1rem;
+      padding: 0.5rem;
+      text-align: center;
+
+      &:hover {
+        background-color: $main-color;
+      }
+    }
+  }
 }
